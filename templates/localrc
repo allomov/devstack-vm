@@ -5,9 +5,14 @@ RABBIT_PASSWORD=password
 SERVICE_PASSWORD=password
 SERVICE_TOKEN=password
 
-
 SCREEN_LOGDIR=/opt/stack/logs
 
+# PUBLIC_INTERFACE=eth0  # Public network interface (default network with default gw)
+# 
+
+# default 
+# FLAT_INTERFACE=eth0
+# PUBLIC_INTERFACE=br100
 
 HOST_IP={{ public_ip }}
 
